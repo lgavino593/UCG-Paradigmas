@@ -13,4 +13,6 @@ dias_mora  = st.number_input("Ingrese dias", value= 30)
 
 resultado = lf.calcular_interes_mora(capital,tasa_anual, dias_mora)
 
+st.write("El reusltado por atraso es:", resultado)
+
 st.write("Elaborado Por: Luis Gavino ")
